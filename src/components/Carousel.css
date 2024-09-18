@@ -1,0 +1,8 @@
+.slick-prev,.slick-next {
+  display: none !important;
+}
+
+.carousel img {
+  max-width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --Main-color: #ededed;
+  --Header-color: #8D3EAD;
+}
+
+body {
+  background: var(--Main-color);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #8D3EAD;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A3A9A;
+}
+
+
+.header-background {
+  background: var(--Header-color);
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+
+.container,.service-section, .carousel, .problems-section, .contact-section {
+  padding: 0 25px;
+}
+
+.container-fluid {
+  padding: 0 15px !important;
+}
+
+@media (min-width:992px) {
+  .container {
+    padding: 0 204px;
+  }
+
+  .search-form {
+    width: 600px !important;
+  }
+
+  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section {
+    padding: 0 135px !important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container {
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+  }
+
+  .support-nav-bar {
+      display: flex;
+      gap: 10px;
+  }
+
+  .search-form {
+      width: 360px;
+  }
+
+  .mega-menu {
+    top: 0;
+    left: -50px;
+    transform: translateX(-50px);
+} 
+
+.carousel {
+  padding: 0 20px !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+      display: flex;
+      justify-content: flex-end !important;
+      align-items: flex-end !important;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    padding: 0 50px;
+  }
+
+  .search-form {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section {
+    padding: 0 205px !important;
+  }
+}
