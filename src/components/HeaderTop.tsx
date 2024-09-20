@@ -17,7 +17,7 @@ const HeaderTop: React.FC = () => {
           <a href="#">Bloq</a>
           <a href="#">Xəbərlər</a>
 
-          <div className="language-switcher lg:ms-[28px] flex gap-[15px]">
+          <div className="language-switcher lg:ms-[28px] flex gap-[11px]">
             <a href="#">AZ</a>
             <a href="#">EN</a>
           </div>

@@ -126,7 +126,7 @@ const BannerSection: React.FC = () => {
 
             <div className="left-side w-full md:w-1/2 p-4 relative">
               <Slider {...horizontalSliderSettings} className="mySlider rounded-[15px] overflow-hidden">
-                <div className="slide-content bg-[#6c1983] w-full h-[387px] flex items-center justify-center p-8 md:p-12">
+                <div className="slide-content bg-[#322c49] w-full h-[387px] flex items-center justify-center p-8 md:p-12">
                   <div className="text-center text-white">
                     <div className="bg-[#ffffff33] p-4 rounded-lg">
                       <h1 className="text-[24px] md:text-[28px] font-bold">Xidmətlərimiz</h1>
@@ -135,7 +135,7 @@ const BannerSection: React.FC = () => {
                   </div>
                 </div>
                 {services.map((service, index) => (
-                  <div key={index} className="slide-content bg-[#6c1983] w-full h-[387px] flex items-center justify-center p-8 md:p-12">
+                  <div key={index} className="slide-content bg-[#322c49] w-full h-[387px] flex items-center justify-center p-8 md:p-12">
                     <div className="flex items-center text-center text-white">
                       <div className="service-icon-container mr-4">{service.icon}</div>
                       <div>
@@ -152,7 +152,7 @@ const BannerSection: React.FC = () => {
             <div className="right-side w-full md:w-1/2 p-4 flex flex-col">
               <Slider {...verticalSliderSettings} className="mySlider rounded-[15px] overflow-hidden">
                 {rightSliderContent1.map((item, index) => (
-                  <div key={index} className="slide-content bg-[#6c1983] h-48 flex items-center justify-center p-8 md:p-12">
+                  <div key={index} className="slide-content bg-[#322c49] h-48 flex items-center justify-center p-8 md:p-12">
                     <div className="text-center text-white">
                       <h1 className="text-[24px] md:text-[28px] font-bold">{item.title}</h1>
                       <p className="text-[16px] mt-4">{item.description}</p>
@@ -163,7 +163,7 @@ const BannerSection: React.FC = () => {
 
               <Slider {...verticalSliderSettings} className="mySlider rounded-[15px] overflow-hidden">
                 {rightSliderContent2.map((item, index) => (
-                  <div key={index} className="slide-content bg-[#6c1983] h-48 flex items-center justify-center p-8 md:p-12">
+                  <div key={index} className="slide-content bg-[#322c49] h-48 flex items-center justify-center p-8 md:p-12">
                     <div className="text-center text-white">
                       <h1 className="text-[24px] md:text-[28px] font-bold">{item.title}</h1>
                       <p className="text-[16px] mt-4">{item.description}</p>

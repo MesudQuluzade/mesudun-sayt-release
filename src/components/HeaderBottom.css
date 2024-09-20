@@ -1,11 +1,9 @@
  .logo-section .logo {
   font-size: 40px;
-  color: #333;
 }
 
 .logo-section .tagline {
   font-size: 14px;
-  color: #8D3EAD;
 }
 
 .search-form {
@@ -20,7 +18,7 @@
   border: 1px solid #f4f5f7;
   border-radius: 5px;
   padding: 17px 20px;
-  color: #58699c;
+  color: #1E3D58;
   transition: 0.2s ease;
   outline: none;
 }
@@ -28,14 +26,14 @@
 .search-input::placeholder {
   font-size: 13px;
   line-height: 14px;
-  color: #58699c;
+  color: #1E3D58;
 }
 
 .fa-search {
   position: absolute;
   right: 3%;
   top: 35.99%;
-  color: #58699c;
+  color: #1E3D58;
 }
 
 .contact-info .phone-number {
@@ -47,7 +45,7 @@
 }
 
 .callback-link:hover {
-  color: #4a2c77;
+  color: #1E3D58;
 }
 
 
