@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderTop: React.FC = () => {
   return (
@@ -12,12 +13,12 @@ const HeaderTop: React.FC = () => {
         </div>
 
         <div className="support-nav-bar text-[12px] font-semibold text-[#fff] md:flex md:gap-[24px]">
-          <a href="#">Haqqımızda</a>
-          <a href="#">Bizimlə əlaqə</a>
-          <a href="#">Bloq</a>
-          <a href="#">Xəbərlər</a>
+          <Link to="/haqqimizda">Haqqımızda</Link>
+          <Link to="/elaqe">Bizimlə əlaqə</Link>
+          <Link to="/blog">Bloq</Link>
+          <Link to ="/xeberler">Xəbərlər</Link>
 
-          <div className="language-switcher lg:ms-[28px] flex gap-[11px]">
+          <div className="language-switcher lg:ms-[28px] flex gap-2 md:gap-[25px]">
             <a href="#">AZ</a>
             <a href="#">EN</a>
           </div>

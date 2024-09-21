@@ -4,7 +4,7 @@ import { GiProcessor } from 'react-icons/gi';
 import { MdOutlineSystemUpdateAlt } from 'react-icons/md'; 
 import { RiFileReduceLine, RiVirusFill } from 'react-icons/ri'; 
 import { HiOutlineDocumentDownload } from 'react-icons/hi'; 
-import { IoMdWarning } from 'react-icons/io'; // For system warnings
+import { IoMdWarning } from 'react-icons/io'
 
 const problemData = [
   {

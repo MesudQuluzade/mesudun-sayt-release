@@ -1,14 +1,14 @@
 import React from 'react';
 import './HeaderBottom.css';
-
+import { Link } from "react-router-dom";
 const HeaderBottom: React.FC = () => {
   return (
     <div className="header-bottom-section pt-[23px]">
       <div className="container-fluid flex justify-between items-center">
         <div className="logo-section">
-          <a href="#" className="logo text-4xl font-bold text-[#1E3D58]">
-            Tekno<span className="highlight text-[#6A1B9A]">Destek.Az</span>
-          </a>
+          <Link to="/" className="logo text-4xl font-bold text-[#1E3D58]">
+            Tekno<span className="highlight text-[#6A1B9A]">Destek.Com</span>
+          </Link>
           <p className="tagline text-sm text-[#6A1B9A]">
             Sizin Texnoloji Problemlərinizin Həlli Mərkəzi
           </p>

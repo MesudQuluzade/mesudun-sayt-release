@@ -32,7 +32,7 @@ body {
 }
 
 
-.container,.service-section, .carousel, .problems-section, .contact-section, .footer-section, .footer-links {
+.container,.service-section, .carousel, .problems-section, .contact-section, .footer-section, .footer-links, .contact-page {
   padding: 0 25px;
 }
 
@@ -49,7 +49,7 @@ body {
     width: 600px !important;
   }
 
-  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links {
+  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links, .contact-page {
     padding: 0 135px !important;
   }
 }
@@ -98,8 +98,8 @@ body {
   }
 
   
-    .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links {
-      padding: 0 50px !important;
+    .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links, .contact-page {
+      padding: 0 30px !important;
     }
   
 
@@ -109,7 +109,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links {
+  .container-fluid, .hero, .carousel, .about-section, .service-section, .problems-section, .contact-section, .footer-section, .footer-links, .contact-page {
     padding: 0 205px !important;
   }
 }
